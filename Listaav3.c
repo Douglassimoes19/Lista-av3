@@ -88,7 +88,7 @@ Produto* buscar(Produto *lista, int codigo){
       }
       atual = atual->prox;
     }
-    printf("\n Pessoa não encontrada");
+    printf("\nProduto não encontrado");
     return NULL;
   }
 }
